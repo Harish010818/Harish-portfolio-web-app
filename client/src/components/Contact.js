@@ -48,7 +48,7 @@ const Contact = () => {
           
         try {
              const res = await axios.post(
-             "http://localhost:8000/api/user/details",
+             `${import.meta.env.NEXT_PUBLIC_API_BASE_URL}/api/user/details`,
               formData,
               {
                headers :  {"Content-Type" : "application/json"},

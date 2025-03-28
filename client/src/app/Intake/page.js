@@ -50,7 +50,7 @@ const IntakeForm = () => {
         e.preventDefault();
         try {
              const res = await axios.post(
-             "http://localhost:8000/api/user/intake",
+             `${import.meta.env.NEXT_PUBLIC_API_BASE_URL}/api/user/intake`,
               formData,
               {
                headers :  {"Content-Type" : "application/json"},
