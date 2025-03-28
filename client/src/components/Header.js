@@ -56,7 +56,7 @@ const Navbar = () => {
        <button
         className="px-8 py-3 border-2 border-black text-black font-bold hover:bg-[var(--office-green)] hover:text-white hover:border-[var(--office-green)] transition"
         >
-        <a href="/#contact">CONTACT</a>  
+        <Link href="/#contact">CONTACT</Link>  
         </button>
       </nav>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
             ))}
           </ul>
           <button className="py-3 w-60 border-2 border-black text-black font-bold hover:bg-black hover:text-white transition">
-            <a href="/#contact"  onClick={() => setIsOpen(false)}>CONTACT</a> 
+            <Link href="/#contact" onClick={() => setIsOpen(false)}>CONTACT</Link>   
           </button>
         </nav>
       )}

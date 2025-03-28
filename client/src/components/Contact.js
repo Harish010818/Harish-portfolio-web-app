@@ -81,7 +81,7 @@ const Contact = () => {
                     Get In Touch
                 </h3>
                 <h1 className="text-3xl md:text-4xl font-bold">
-                    Let's discuss your next project!
+                    Let&apos;s discuss your next project!
                 </h1>
 
 
