@@ -25,7 +25,7 @@ const ServiceDetail = () => {
   const service = services[id];
 
   return (
-    <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center px-6 md:px-40 pt-36 md:pt-0 pb-10 md:pb-0 md:py-24">
+    <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center px-6 md:px-40 pt-36 pb-10 md:py-40">
           
            {/* left Side: Image */}
           <div>
