@@ -31,8 +31,8 @@ app.post("/api/user/details" , async(req, res) => {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: "devharishjuyal18@gmail.com",
-                pass: "kmxeehnfzxtdivat",  // Use App Password, NOT your real password
+                user: SMTP_USER,
+                pass: SMTP_PASS  // Use App Password, NOT your real password
             },
         });
         
