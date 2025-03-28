@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  /* --background: #ffffff;
+  --foreground: #171717; */
+
+  /* Custom colors */
+  /* --custom-blue: #1E90FF;
+  --custom-pink: #FF69B4;
+  --custom-purple: #800080; Add more colors as needed */
+  --office-green: #00CA00;
+  --hover-green: #077200;
+  --dark-green: #162415ff;
+}
+
+@layer utilities {
+  .bg-home-desktop {
+    background-image: url('/assets/home_bg_desktop.jpg'); /* ✅ Background image set */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-home-mobile {
+    background-image: url('/assets/home_bg_mobile.jpg'); /* ✅ Background image set */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-services {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* it may be reflect window please check once */
+html, body {
+  overflow-x: hidden;
+}
+
+section {
+  scroll-margin-top: 80px; /* Navbar jitna height ho, usse adjust kar */
+}
+
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
