@@ -21,9 +21,9 @@
 //   },
 // ];
 
-// const Services = () => {
+// const Temp = () => {
 //   return (
-//     <div className="grid gap-12 grid-cols-1 px-6 md:px-40 py-10 md:py-24 bg-services">
+//     <div className="grid gap-12 grid-cols-1 px-6 md:px-40 py-10 md:py-24 bg-Tempservices">
 //       <div className="gap-4 text-white">
 //         <p className="uppercase font-bold text-sm tracking-wider">Expert web solutions</p>
 //         <h1 className="text-2xl md:text-3xl font-bold">
@@ -35,7 +35,7 @@
 //         {services.map((service) => (
 //           <Link
 //             key={service.id}
-//             href={`/Service/${service.id}`}
+//             href={`/services/${service.id}`}
 //             className="bg-[var(--dark-green)] text-white overflow-hidden hover:scale-100  md:hover:scale-105 transition-all duration-300 cursor-pointer group"
 //           >
 //             <img
@@ -56,4 +56,4 @@
 //   );
 // };
 
-// export default Services;
+// export default Temp;
