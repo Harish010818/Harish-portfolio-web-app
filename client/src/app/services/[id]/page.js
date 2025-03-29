@@ -20,7 +20,7 @@ const services = {
   },
 };
 
-export default async function ({ params }) {
+export default async function ServiceDetail({ params }) {
   const { id } = await params  // 👈 Ye id URL se lega
   const service = services[id];  
   console.log(id)
