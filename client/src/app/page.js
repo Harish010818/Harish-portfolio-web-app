@@ -1,12 +1,13 @@
-import About from "@/components/About";
-import Services from "@/components/Services";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
-import Home from "@/components/Home";
-import SmoothScrollWrapper from "@/components/Animation/SmoothScrollWrapper";
+import Home from "@/components/sections/Home";
+import About from "@/components/sections/About";
+import Services from "./services/page";
+import Projects from "@/components/sections/Projects";
+import Contact from "@/components/sections/Contact";
+import SmoothScrollWrapper from "@/components/wrapper/SmoothScrollWrapper";
+
 
 const Children = () => {
-  // main content
+  //main content
   return (
       <main>
           <SmoothScrollWrapper><section id="home"><Home /></section></SmoothScrollWrapper>

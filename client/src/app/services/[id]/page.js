@@ -23,6 +23,7 @@ const services = {
 const ServiceDetail = () => {
   const { id } = useParams();  // 👈 Ye id URL se lega
   const service = services[id];
+  console.log(id)
 
   return (
     <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center px-6 md:px-40 pt-36 pb-10 md:py-40">

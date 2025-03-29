@@ -35,7 +35,7 @@ const Services = () => {
         {services.map((service) => (
           <Link
             key={service.id}
-            href={`/Service/${service.id}`}
+            href={`/services/${service.id}`}
             className="bg-[var(--dark-green)] text-white overflow-hidden hover:scale-100  md:hover:scale-105 transition-all duration-300 cursor-pointer group"
           >
             <img
