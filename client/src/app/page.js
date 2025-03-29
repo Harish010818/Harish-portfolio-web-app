@@ -1,6 +1,6 @@
 import Home from "@/components/sections/Home";
 import About from "@/components/sections/About";
-import Services from "./services/page";
+import Services from "./Services";
 import Projects from "@/components/sections/Projects";
 import Contact from "@/components/sections/Contact";
 import SmoothScrollWrapper from "@/components/wrapper/SmoothScrollWrapper";
