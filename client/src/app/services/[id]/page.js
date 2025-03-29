@@ -29,14 +29,14 @@ const ServiceDetail = () => {
     <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center px-6 md:px-40 pt-36 pb-10 md:py-40">
           
            {/* left Side: Image */}
-          <div>
+          {/* <div>
             <img 
                src={service.img} 
                alt={service.title} 
                className="h-auto w-auto"
              />
 
-          </div>
+          </div> */}
            
             {/* right Side: Text Content */}
             <div className="space-y-4">
