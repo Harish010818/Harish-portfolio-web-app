@@ -1,6 +1,6 @@
-"use client";  // 👈 Yeh likhne se ab ye client component ban jayega
+// "use client";  // 👈 Yeh likhne se ab ye client component ban jayega
 
-import { useParams } from "next/navigation";
+// import { useParams } from "next/navigation";
 
 const services = {
   "web-app": {
@@ -20,23 +20,23 @@ const services = {
   },
 };
 
-const ServiceDetail = () => {
-  const { id } = useParams();  // 👈 Ye id URL se lega
-  const service = services[id];
+export default async function ({ params }) {
+  const { id } = await params  // 👈 Ye id URL se lega
+  const service = services[id];  
   console.log(id)
 
   return (
     <main className="bg-black grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center px-6 md:px-40 pt-36 pb-10 md:py-40">
           
            {/* left Side: Image */}
-          {/* <div>
+          <div>
             <img 
                src={service.img} 
                alt={service.title} 
                className="h-auto w-auto"
              />
 
-          </div> */}
+          </div>
            
             {/* right Side: Text Content */}
             <div className="space-y-4">
@@ -51,4 +51,4 @@ const ServiceDetail = () => {
   );
 };
 
-export default ServiceDetail;
+// 0=export default ServiceDetail;
