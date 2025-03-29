@@ -96,7 +96,6 @@ app.post("/api/user/intake" , async(req, res) => {
         if (!name || !email) {
             return res.status(400).json({
                 success: false,
-                // error: "Validation Error",
                 message: "Name and email are required fields"
             });
         }
@@ -106,8 +105,8 @@ app.post("/api/user/intake" , async(req, res) => {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: "devharishjuyal18@gmail.com",
-                pass: "kmxeehnfzxtdivat",  // Use App Password, NOT your real password
+                user: SMTP_USER,
+                pass: SMTP_PASS  // Use App Password, NOT your real password
             },
         });
         
