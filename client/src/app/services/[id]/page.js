@@ -1,6 +1,6 @@
 // "use client";  // 👈 Yeh likhne se ab ye client component ban jayega
 
-// import { useParams } from "next/navigation";
+//  import { useParams } from "next/navigation";
 
 const services = {
   "web-app": {
@@ -51,4 +51,4 @@ export default async function ServiceDetail({ params }) {
   );
 };
 
-// 0=export default ServiceDetail;
+//export default ServiceDetail;
