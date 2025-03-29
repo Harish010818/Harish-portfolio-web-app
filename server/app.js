@@ -31,8 +31,8 @@ app.post("/api/user/details" , async(req, res) => {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: SMTP_USER,
-                pass: SMTP_PASS  // Use App Password, NOT your real password
+                user: process.env.SMTP_USER,
+                pass: process.env.SMTP_PASS  // Use App Password, NOT your real password
             },
         });
         
@@ -81,7 +81,7 @@ app.post("/api/user/details" , async(req, res) => {
     }
     catch(err) {
         console.error(err);
-        res.status(400).json({ success: false, message: "Error in sending mail" });
+        res.status(400).json({ success: false, message: "Error in sending mail..." });
     }  
 })
 
@@ -105,8 +105,8 @@ app.post("/api/user/intake" , async(req, res) => {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: SMTP_USER,
-                pass: SMTP_PASS  // Use App Password, NOT your real password
+                user: process.env.SMTP_USER,
+                pass: process.env.SMTP_PASS  // Use App Password, NOT your real password
             },
         });
         
@@ -157,7 +157,7 @@ app.post("/api/user/intake" , async(req, res) => {
     }
      catch(err) {
         console.error(err);
-        res.status(400).json({ success: false, message: "Something went wrong..." });
+        res.status(400).json({ success: false, message: "Error in sending mail..." });
      }  
 }) 
 

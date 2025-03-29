@@ -51,4 +51,4 @@ export default async function ServiceDetail({ params }) {
   );
 };
 
-//export default ServiceDetail;
+// export default ServiceDetail;

@@ -8,8 +8,8 @@ const Contact = () => {
         email: "",
         phone: "",
         message: "",
-        consent: false, // Initial false
-      });
+        consent: false,  //Initial false
+    });
 
       const [loaded, setLoaded] = useState(false);
 
@@ -48,20 +48,15 @@ const Contact = () => {
           
         try {
              const res = await axios.post(
-             `${import.meta.env.NEXT_PUBLIC_API_BASE_URL}/api/user/details`,
+             `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/user/details`,
               formData,
+
               {
                headers :  {"Content-Type" : "application/json"},
                withCredentials : true     
              } 
         )
-         
-        if (!formData.consent) {
-            alert("Please allow consent before submitting.");  // ✅ Fast validation
-            return;
-        }
-        
-        
+
         if(res) {
            alert(res.data.message);   
         }   
