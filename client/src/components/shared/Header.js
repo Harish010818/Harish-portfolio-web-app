@@ -29,10 +29,10 @@ const Navbar = () => {
 
 
   return (
-    <header className="fixed flex px-6 gap-4 md:gap-40 items-center md:px-40 py-5 md:fixed bg-white right-0 left-0 z-30">
+    <header className="fixed flex px-6 gap-32 md:gap-40 items-center md:px-40 py-5 md:fixed bg-white right-0 left-0 z-30">
       
       {/* Logo */}
-      <h1 className="text-xl md:text-3xl font-bold">HARISH CHANDRA JUYAL</h1>
+      <h1 className="text-xl md:text-3xl font-bold uppercase tracking-wide">Harish Juyal</h1>
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex items-center gap-6">
@@ -83,13 +83,13 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
 
-        <nav className="fixed top-0 left-0 w-full h-screen  bg-white flex flex-col items-center space-y-6 shadow-md">
+        <nav className="fixed top-0 left-0 w-full h-screen  bg-white flex flex-col items-center space-y-8 shadow-md px-6">
           <FiX
             size={28}
             className="absolute top-6 right-6 cursor-pointer"
             onClick={() => setIsOpen(false)}
           />
-          <ul className="mt-10 text-lg  w-60 font-semibold text-gray-600">
+          <ul className="mt-10 text-lg  w-full font-semibold text-gray-600">
                {navItems.map((item) => (
               <li
                 key={item.id}
@@ -101,7 +101,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="py-3 w-60 border-2 border-black text-black font-bold hover:bg-black hover:text-white transition">
+          <button className="py-3 w-full font-bold bg-black text-white">
             <Link href="/#contact" onClick={() => setIsOpen(false)}>CONTACT</Link>   
           </button>
         </nav>

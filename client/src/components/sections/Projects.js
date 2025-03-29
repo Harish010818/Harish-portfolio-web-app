@@ -34,8 +34,8 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 cursor-pointer gap-5 md:gap-0">
         {projects.map((project) => (
           <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className="overflow-hidden hover:scale-105 transition-all duration-300 group">
-               <img src={project.thumbnail} alt={project.title} className="w-60 h-[40vh] object-cover" />
-               <div className="w-60  border border-gray-800 px-2 pb-2 md:h-70">
+               <img src={project.thumbnail} alt={project.title} className="w-full h-[40vh] object-cover" />
+               <div className="border border-gray-800 px-2 pb-2 md:h-70">
                <h2 className="text-xl font-semibold group-hover:text-[var(--office-green)]">{project.title}</h2>
                <p className="text-gray-600 mt-2">{project.desc}</p>
             </div>

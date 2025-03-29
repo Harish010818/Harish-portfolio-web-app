@@ -10,13 +10,12 @@ const About = () => {
                 </h3>
                 <h1 className="text-2xl md:text-4xl font-bold">Your go-to full stack developer</h1>
                 <p className="text-gray-600 md:text-xl">
-                    Harish Chandra Juyal is a Full Stack Developer based in Delhi, 
+                    I am a Full Stack Developer based in Delhi, 
                     specializing in modern web applications, APIs, and scalable solutions. 
                     With a strong foundation in both frontend and backend technologies, 
-                    Harish brings innovative ideas to life through expertly crafted digital solutions.
+                    I brings innovative ideas to life through expertly crafted digital solutions.
                     This portfolio showcases a blend of skills, projects, and experience, 
-                    all designed with a classic aesthetic and user-friendly dark mode/light 
-                    mode feature to elevate the user experience.
+                    all designed with a classic aesthetic and user-friendly feature to elevate the user experience.
                 </p>
                 <span  className="text-gray-600 cursor-pointer underline">
                    <Link href="#contact" className="">Get in touch </Link> 

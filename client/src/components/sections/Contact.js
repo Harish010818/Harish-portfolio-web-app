@@ -87,7 +87,7 @@ const Contact = () => {
                                name="name" 
                                onChange={handleChange} 
                                placeholder="John doe" 
-                               className="w-60 md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"   
+                               className="w-full md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"   
                             />
                       </div>
                     <div>
@@ -96,7 +96,7 @@ const Contact = () => {
                                placeholder="johndoe@gmail.com" 
                                name="email"
                                onChange={handleChange}
-                               className="w-60 md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"
+                               className="w-full md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"
                          />
                     </div>
                     <div>
@@ -105,7 +105,7 @@ const Contact = () => {
                                placeholder="+91 9876543210" 
                                name="phone"
                                onChange={handleChange}
-                               className="w-60 md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400" 
+                               className="w-full md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400" 
                           />
                     </div>
 
@@ -114,7 +114,7 @@ const Contact = () => {
                         <textarea rows="4" placeholder="Your message here..."
                                 name="message"
                                 onChange={handleChange}
-                                className="w-60 md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"
+                                className="w-full md:w-96 px-4 py-2.5 border focus:outline-none focus:ring-2 focus:ring-gray-400"
                          ></textarea>
                     </div>
 
@@ -134,7 +134,7 @@ const Contact = () => {
 
                     <button type="submit"
                             onClick={submitHandler} 
-                            className="w-60 md:w-96 bg-[var(--office-green)] text-white py-2.5 px-4  hover:bg-[var(--hover-green)]"
+                            className="w-full md:w-96 bg-[var(--office-green)] text-white py-2.5 px-4  hover:bg-[var(--hover-green)]"
                            >
                     Submit
                     </button>
