@@ -32,7 +32,7 @@ const Navbar = () => {
     <header className="fixed flex px-6 gap-32 md:gap-40 items-center md:px-40 py-5 md:fixed bg-white right-0 left-0 z-30">
       
       {/* Logo */}
-      <h1 className="text-xl md:text-3xl font-bold uppercase tracking-wide">Harish Juyal</h1>
+      <h1 className="text-xl md:text-3xl font-bold uppercase tracking-wide">Harish Chandra Juyal</h1>
 
       {/* Desktop Menu */}
       <nav className="hidden md:flex items-center gap-6">
