@@ -1,6 +1,6 @@
 const About = () => {
     return (
-        <div className="flex justify-center items-center py-24   px-4 sm:px-6 md:py-24 bg-gradient-to-b from-white to-gray-50">
+        <div className="flex justify-center items-center py-24   px-4 sm:px-6 md:py-24">
             <div className="max-w-5xl w-full flex flex-col md:flex-row items-center gap-10 bg-[var(--isabelline)] rounded-3xl p-6 sm:p-10 md:p-16 shadow shadow-gray-300">
 
                 {/* Left side text */}
