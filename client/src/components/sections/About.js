@@ -1,35 +1,38 @@
-import Link from "next/link";
-
 const About = () => {
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2  gap-4 md:gap-16 items-center px-6 md:px-40 py-10 md:py-24">
-            {/* Left Side: Text Content */}
-            <div className="space-y-4">
-                <h3 className="text-[var(--office-green)] font-semibold uppercase tracking-wide">
-                    Crafting Digital Solutions
-                </h3>
-                <h1 className="text-2xl md:text-4xl font-bold">Your go-to full stack developer</h1>
-                <p className="text-gray-600 md:text-xl">
-                    I am a Full Stack Developer based in Delhi, 
-                    specializing in modern web applications, APIs, and scalable solutions. 
-                    With a strong foundation in both frontend and backend technologies, 
-                    I brings innovative ideas to life through expertly crafted digital solutions.
-                    This portfolio showcases a blend of skills, projects, and experience, 
-                    all designed with a classic aesthetic and user-friendly feature to elevate the user experience.
-                </p>
-                <span  className="text-gray-600 cursor-pointer underline">
-                   <Link href="#contact" className="">Get in touch </Link> 
-                </span>
-            </div>
+        <div className="flex justify-center items-center py-24   px-4 sm:px-6 md:py-24 bg-gradient-to-b from-white to-gray-50">
+            <div className="max-w-5xl w-full flex flex-col md:flex-row items-center gap-10 bg-[var(--isabelline)] rounded-3xl p-6 sm:p-10 md:p-16 shadow shadow-gray-300">
 
-            {/* Right Side: Image */}
-            <div className="flex justify-center">
-            <img 
-               src="/assets/img-about.png" 
-               alt="About Image" 
-               className="h-fit md:h-[90vh] w-auto"
-             />
+                {/* Left side text */}
+                <div className="flex-1 text-center md:text-left">
+                    <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-gray-900">About me</h2>
+                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4">
+                        I am a Full Stack Developer based in Delhi,
+                        specializing in modern web applications, APIs, and scalable solutions.
+                        With a strong foundation in both frontend and backend technologies,
+                        I bring innovative ideas to life through expertly crafted digital solutions.
+                    </p>
+                    <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
+                        I love to create products that are quick to develop and easy to update.
+                        My goal is to use technology to help businesses grow and succeed.
+                    </p>
+                </div>
 
+                {/* Right side image */}
+                <div className="relative flex-1 flex justify-center items-center">
+                    {/* Decorative Circle */}
+                    <div className="absolute -top-4 right-18 sm:right-12 h-20 w-20 sm:h-24 sm:w-24 bg-gray-200 rounded-full"></div>
+
+                    {/* Background Box */}
+                    <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-3xl shadow-md bg-gray-200 transform rotate-[88deg]"></div>
+
+                    {/* Profile Image */}
+                    <img
+                        src="/assets/myprofile.jpeg"
+                        alt="About me photo"
+                        className="absolute object-cover w-52 h-52 sm:w-72 sm:h-72 rounded-3xl overflow-hidden shadow-md hover:cursor-pointer duration-300 ease-in-out hover:-translate-y-2"
+                    />
+                </div>
             </div>
         </div>
     );
