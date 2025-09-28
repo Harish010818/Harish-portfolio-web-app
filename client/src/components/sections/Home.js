@@ -19,7 +19,7 @@ const Home = () => {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold text-[var(--rich-black)]">Have a project in mind?</h1>
           <button className="cursor-pointer mt-6 w-44 md:w-52  py-3 font-bold bg-[var(--rich-black)] text-white rounded-lg hover:scale-105 ease-in-out duration-300">
-            <a href="/intake" className="text-xs md:text-lg font-sans font-medium">Let's Get Started</a>
+            <a href="/intake" className="text-xs md:text-lg font-sans font-medium">Let&apos;s Get Started</a>
           </button>
         </div>
 
