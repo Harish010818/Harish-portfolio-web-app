@@ -12,22 +12,10 @@
   --hover-green: #077200;
   --dark-green: #162415ff;
   --isabelline: #FBF8F3ff;
+  --rich-black: #060A11; 
 }
 
 @layer utilities {
-  .bg-home-desktop {
-    background-image: url('/assets/home_bg_desktop.jpg'); /* ✅ Background image set */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bg-home-mobile {
-    background-image: url('/assets/home_bg_mobile.jpg'); /* ✅ Background image set */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
 
   .bg-services {
     background-color: black;
@@ -47,3 +35,30 @@ section {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bg-home-desktop { */
+    /* background-image: url('/assets/home-bg.png'); /*  Background image set */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */ 
+  /* } */
+
+  /* .bg-home-mobile {
+    background-image: url('/assets/home-bg.png'); /*  Background image set */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+  /* } */ 

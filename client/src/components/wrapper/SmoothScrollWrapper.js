@@ -24,3 +24,17 @@ const SmoothScrollWrapper = ({ children, id }) => {
 };
 
 export default SmoothScrollWrapper;
+
+
+export const HandWavingAnimate = ({children}) => {
+      return (
+          <motion.div 
+            animate={{ rotate: [0, 20, 0, 20, 0, 20, 0] }}
+            transition={{ duration: 1, repeat: Infinity, repeatDelay: 1.5 }}
+            style={{ transformOrigin: "bottom center" }}
+          >
+           {children}             
+          </motion.div>
+      )
+} 
+
