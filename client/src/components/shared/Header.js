@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
   return (
-    <header className="fixed flex px-6 gap-48 md:gap-64 items-center  md:px-40 py-5 md:fixed bg-white  right-0 left-0 z-30 shadow shadow-gray-200">
+    <header className="fixed flex px-6 gap-34 sm:gap-96 md:gap-64 items-center  md:px-40 py-5 md:fixed bg-white  right-0 left-0 z-30 shadow shadow-gray-200">
 
       {/* Logo */}
       <Link href="/" onClick={() => handleNavigation("home")}>
@@ -83,7 +83,7 @@ const Navbar = () => {
           />
         ) : (
           <FiMenu
-            size={20}
+            size={22}
             className="cursor-pointer"
             onClick={() => setIsOpen(true)}
           />
