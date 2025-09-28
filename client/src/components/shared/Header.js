@@ -31,11 +31,11 @@ const Navbar = () => {
 
 
   return (
-    <header className="fixed flex px-6 gap-32 md:gap-64 items-center md:px-40 py-5 md:fixed bg-white  right-0 left-0 z-30">
+    <header className="fixed flex px-6 gap-48 md:gap-64 items-center  md:px-40 py-5 md:fixed bg-white  right-0 left-0 z-30 shadow shadow-gray-200">
 
       {/* Logo */}
       <Link href="/" onClick={() => handleNavigation("home")}>
-           <h1 className="text-xl md:text-4xl font-bold cursor-pointer">Harish Juyal</h1>
+           <h1 className="text-2xl md:text-4xl font-bold cursor-pointer">Harish Juyal</h1>
       </Link>
 
       {/* Desktop Menu */}

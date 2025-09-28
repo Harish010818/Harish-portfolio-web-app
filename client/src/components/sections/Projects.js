@@ -41,7 +41,7 @@ const Projects = () => {
         <h1 className="text-2xl md:text-3xl font-bold text-[var(--rich-black)]">Explore cutting-edge web-applications</h1>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 ">
         {projects.map((project) => (
           <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className="overflow-hidden hover:scale-105 transition-all duration-300 group shadow shadow-gray-600">
                <img src={project.thumbnail} alt={project.title} className="" />

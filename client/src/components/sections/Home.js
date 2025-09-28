@@ -7,18 +7,17 @@ const Home = () => {
       {/* to glass effect and blocking bg   */}
       {/* <div className="absolute h-[95vh] inset-0 bg-black/50"></div> */}
 
-      <div className="px-6 md:ml-40 gap-12 grid z-20">
+      <div className="grid grid-cols-1 gap-12  px-6 md:ml-40 py-10 md:py-24">
         <div>
           <div className="flex items-center justify-center  gap-3">
             <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#4284FF] to-[#2ECC71] bg-clip-text text-transparent">Hi, I&apos;m Harish</h1>
             <HandWavingAnimate><span className="text-4xl md:text-[60px]">👋</span ></HandWavingAnimate>
           </div>
           <h2 className="text-xl mt-1.5 md:text-2xl text-[var(--rich-black)]">Full Stack Developer</h2>
-
         </div>
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold text-[var(--rich-black)]">Have a project in mind ?</h1>
-          <button className="cursor-pointer mt-6 w-44 md:w-52  py-3 font-bold bg-[var(--rich-black)] text-white rounded-lg hover:scale-105 ease-in-out duration-300">
+          <h1 className="text-2xl md:text-4xl font-bold text-[var(--rich-black)]">Have a project in mind ?</h1>
+          <button className="cursor-pointer mt-6 w-36 md:w-52  py-3 font-bold bg-[var(--rich-black)] text-white rounded-lg hover:scale-105 ease-in-out duration-300">
             <a href="/intake" className="text-xs md:text-lg font-sans font-medium">Let&apos;s Get Started</a>
           </button>
         </div>

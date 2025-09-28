@@ -18,8 +18,8 @@ const techStack = [
 
 const Techstacks = () => {
   return (
-     <div className="py-16 px-6 flex flex-col items-center">
-      <h2 className="text-3xl font-bold text-gray-900 mb-10">
+     <div className="py-16 px-6 gap-10 flex flex-col items-center">
+      <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-10">
         Technologies I Work With
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">

@@ -70,7 +70,7 @@ const IntakeForm = () => {
 
   return (
     <div className="grid grid-cols-1 items-center md:max-w-3xl pt-36 pb-10 md:py-40 px-6 md:px-0 md:mx-auto">
-       <h3 className="text-[var(--office-green)] font-semibold uppercase tracking-wide mb-2">Intake form</h3>
+       <h3 className="font-bold bg-gradient-to-r from-[#4284FF] to-[#2ECC71] bg-clip-text text-transparent uppercase tracking-wide mb-2">Intake form</h3>
         <h1 className="text-3xl md:text-4xl font-bold mb-10">Help us serve you better</h1> 
 
         {/* onSubmit={handleSubmit} */}
@@ -106,7 +106,7 @@ const IntakeForm = () => {
         {/* Services */}
         <div>
           <label className="block font-medium">What services are you interested in?</label>
-          {["Web Development", "API Development", "Scalable Solutions", "Consultation"].map((service) => (
+          {["Web Development", "API Development", "Scalable Solutions","Full Stack Development", "Consultation"].map((service) => (
             <div key={service}>
               <input
                 type="checkbox"
@@ -153,7 +153,7 @@ const IntakeForm = () => {
         {/* Technologies */}
         <div>
           <label className="block font-medium">What technologies are you planning to use?</label>
-          {["HTML", "CSS", "JavaScript", "React", "Node.js", "Python", "PHP"].map((tech) => (
+          {["HTML", "CSS", "JavaScript", "React", "Next.js", "Node.js", "AWS", "Redis", "Docker", "MongoDB", "MySQL", "PSQL"].map((tech) => (
             <div key={tech}>
               <input
                 type="checkbox"
@@ -195,8 +195,7 @@ const IntakeForm = () => {
         {/* Submit Button */}
         <button 
            type="submit" 
-           className="w-full px-4 py-2.5 hover:bg-[var(--hover-green)]  
-           bg-[var(--office-green)]"
+           className="w-full px-4 py-2.5 bg-[var(--rich-black)] text-white hover:bg-gray-300 cursor-pointer"
            onClick={submitHandler}
           > 
           Submit
