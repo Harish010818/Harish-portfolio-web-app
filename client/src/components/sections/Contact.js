@@ -72,10 +72,10 @@ const Contact = () => {
             
             {/* Left Side: Contact Form */}
             <div className="space-y-6">
-                <h3 className="text-[var(--office-green)] font-semibold uppercase tracking-wide">
+                <h3 className="font-bold text-sm bg-gradient-to-r from-[#4284FF] to-[#2ECC71] bg-clip-text text-transparent uppercase tracking-wide">
                     Get In Touch
                 </h3>
-                <h1 className="text-3xl md:text-4xl font-bold">
+                <h1 className="text-3xl md:text-4xl font-bold text-[var(--rich-black)]">
                     Let&apos;s discuss your next project!
                 </h1>
 
@@ -134,7 +134,7 @@ const Contact = () => {
 
                     <button type="submit"
                             onClick={submitHandler} 
-                            className="w-full md:w-96 bg-[var(--office-green)] text-white py-2.5 px-4  hover:bg-[var(--hover-green)]"
+                            className="w-full md:w-96 bg-[var(--rich-black)]  text-white py-2.5 px-4  hover:bg-gray-300 cursor-pointer"
                            >
                     Submit
                     </button>

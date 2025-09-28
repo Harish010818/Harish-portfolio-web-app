@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaLinkedin, FaGithub, FaXTwitter, FaCode } from "react-icons/fa6";
 const Footer = () => {
     return (
-        <footer className="bg-[var(--rich-black)] text-white px-6 md:px-40 py-6 border-t border-gray-700">
+        <footer className="bg-[var(--rich-black)] text-white px-6 md:px-40 py-6">
             {/* Main Grid */}
             <div className="grid gap-10 grid-cols-1">
     
