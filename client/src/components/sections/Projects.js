@@ -43,7 +43,7 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6 ">
         {projects.map((project) => (
-          <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className="overflow-hidden hover:scale-105 transition-all duration-300 group shadow shadow-gray-600">
+          <a key={project.id} href={project.url} target="_blank" rel="noopener noreferrer" className="overflow-hidden hover:scale-110 transition-all duration-300 group shadow shadow-gray-600">
                <img src={project.thumbnail} alt={project.title} className="" />
                <div className=" px-2 pb-2 md:h-50">
                <h2 className="text-xl font-semibold group-hover:bg-gradient-to-r group-hover:from-[#4284FF] group-hover:to-[#2ECC71] group-hover:bg-clip-text group-hover:text-transparent">{project.title}</h2>
