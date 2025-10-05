@@ -1,11 +1,11 @@
 "use client"; // For Next.js client component
 
 import { GoArrowUpRight } from "react-icons/go";
-
 import { scrollToSection } from "@/utils/scrollToSection";
 import Link from "next/link";
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi"; // Import icons
+import { FaBars } from "react-icons/fa";
 
 const navItems = [
   { id: "home", label: "Home" },
@@ -75,26 +75,16 @@ const Navbar = () => {
 
       {/* Hamburger Menu Button */}
       <div className="md:hidden">
-        {isOpen ? (
-          <FiX
-            size={22}
-            className="cursor-pointer"
-            onClick={() => setIsOpen(false)}
-          />
-        ) : (
-          <FiMenu
-            size={22}
+        {!isOpen ? (<FaBars
+            size={21}
             className="cursor-pointer"
             onClick={() => setIsOpen(true)}
-          />
-        )}
+          />) : (<></>)}
       </div>
-
 
 
       {/* Mobile Menu */}
       {isOpen && (
-
         <nav className="fixed top-0 left-0 w-full h-screen  bg-white flex flex-col items-center space-y-8 shadow-md px-6">
           <FiX
             size={28}
