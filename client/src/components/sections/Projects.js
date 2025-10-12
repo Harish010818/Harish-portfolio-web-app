@@ -11,7 +11,7 @@ const projects = [
   {
     id: "quiz-app",
     title: "Quiz Web application",
-    desc: "MERN To-Do Web App: A responsive and feature-rich To-Do app with user authentication (JWT-secured), full CRUD operations, and a sleek Tailwind CSS UI",
+    desc: "Developed an interactive quiz platform using React, Node.js, PostgreSQL, and Drizzle ORM, featuring category-wise challenges and a responsive dark mode interface for enhanced user engagement.",
     url: "https://quiz-web-app-self.vercel.app/",
     thumbnail: "/assets/Projects/quiz_home.png",
   },
