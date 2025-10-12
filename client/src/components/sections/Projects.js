@@ -7,14 +7,15 @@ const projects = [
     url: "https://chat-web-app-h018.vercel.app/",
     thumbnail: "/assets/Projects/chat_home.png"
   },
-  
+
   {
-    id: "api-proxy",
-    title: "API Proxy Serve",
-    desc: "Built a Node.js + Express proxy server supporting HTTP methods, cookie-based authentication, and in-memory caching. Developed a React-based UI for sending requests and viewing responses, inspired by API testing tools like Postman.",
-    url: "https://postman-lite-nfhf.vercel.app",
-    thumbnail: "/assets/Projects/api_proxy.png",
+    id: "quiz-app",
+    title: "Quiz Web application",
+    desc: "MERN To-Do Web App: A responsive and feature-rich To-Do app with user authentication (JWT-secured), full CRUD operations, and a sleek Tailwind CSS UI",
+    url: "https://quiz-web-app-self.vercel.app/",
+    thumbnail: "/assets/Projects/quiz_home.png",
   },
+  
   {
     id: "space-exploration",
     title: "Space Exploration Site",
@@ -22,15 +23,13 @@ const projects = [
     url: "https://space-travel-website-beta.vercel.app/",
     thumbnail: "/assets/Projects/space_home.png",
   },
-
   {
-    id: "todo-web-app",
-    title: "Todo-web-app",
-    desc: "MERN To-Do Web App: A responsive and feature-rich To-Do app with user authentication (JWT-secured), full CRUD operations, and a sleek Tailwind CSS UI",
-    url: "https://todo-web-app-r192.vercel.app/",
-    thumbnail: "/assets/Projects/todo_home.png",
-  }, 
-
+    id: "api-proxy",
+    title: "API Proxy Serve",
+    desc: "Built a Node.js + Express proxy server supporting HTTP methods, cookie-based authentication, and in-memory caching. Developed a React-based UI for sending requests and viewing responses, inspired by API testing tools like Postman.",
+    url: "https://postman-lite-nfhf.vercel.app",
+    thumbnail: "/assets/Projects/api_proxy.png",
+  }
 ];
 
 const Projects = () => {
