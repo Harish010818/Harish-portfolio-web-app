@@ -12,7 +12,7 @@ const projects = [
     id: "quiz-app",
     title: "Quiz Web application",
     desc: "Developed an interactive quiz platform using React, Node.js, PostgreSQL, and Drizzle ORM, featuring category-wise challenges and a responsive dark mode interface for enhanced user engagement.",
-    url: "https://quiz-web-app-self.vercel.app/",
+    url: "https://quiz-web-app-qrrb.vercel.app/",
     thumbnail: "/assets/Projects/quiz_home.png",
   },
   
